@@ -1,0 +1,19 @@
+Index: src/App.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from 'react';\r\nimport logo from './logo.svg';\r\nimport './App.css';\r\n\r\nfunction App() {\r\n  return (\r\n        <div>\r\n    <div>app</div>\r\n    <div>Dev branch commit 1</div>\r\n        </div>\r\n\r\n  );\r\n}\r\n\r\nexport default App;\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/App.tsx b/src/App.tsx
+--- a/src/App.tsx	(revision 8a5e93b9dcdb31640352cc13ac0d1b778a9d300b)
++++ b/src/App.tsx	(date 1715783312337)
+@@ -7,6 +7,8 @@
+         <div>
+     <div>app</div>
+     <div>Dev branch commit 1</div>
++            <div>Dev branch commit 2</div>
++            <div>Dev branch commit 3</div>
+         </div>
+ 
+   );

@@ -1,0 +1,31 @@
+Index: src/App.tsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from 'react';\r\n\r\nimport './App.css';\r\n\r\nfunction App() {\r\n  return (\r\n      <div>\r\n          <div>App</div>\r\n          <div>Dev branch commit 1</div>\r\n      </div>\r\n\r\nexport default App;\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/App.tsx b/src/App.tsx
+--- a/src/App.tsx	(revision 95903bb947a8ffeb23503ce4395391517c28da32)
++++ b/src/App.tsx	(date 1715783500099)
+@@ -1,12 +1,15 @@
+ import React from 'react';
+-
++import logo from './logo.svg';
+ import './App.css';
+ 
+ function App() {
+   return (
+-      <div>
+-          <div>App</div>
+-          <div>Dev branch commit 1</div>
+-      </div>
++        <div>
++    <div>app</div>
++    <div>Dev branch commit 1</div>
++        </div>
+ 
++  );
++}
++
+ export default App;
